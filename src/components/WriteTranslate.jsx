@@ -7,8 +7,10 @@ function WriteTranslate() {
 
   const translate = () => {
 
+    setOutput("hello"); // Clear previous output
+
     if (!input.trim()) {
-      setOutput("");
+      setOutput("test");
       return;
     }
 
